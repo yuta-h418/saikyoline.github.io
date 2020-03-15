@@ -1,0 +1,488 @@
+@charset "UTF-8";
+
+
+#wrapper{
+    height: 3200px;
+    width: 1264px;
+    background-color: #f1f1f1;
+}
+
+
+/* header */
+.global-wrapper{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+.global-menu{
+    width:1200px;
+    height: 100px;
+    margin-left:120px
+}
+
+.mainlogo{
+    width: 100px;
+    height: 45px;
+    margin: 0px 150px 0px 0px;
+    padding-top: 30px;
+}
+
+.page-menu{
+    width:500px;
+    height:60px;
+    display: inline-block;
+    margin : 10px 50px 50px 20px;
+    padding: 0px;
+    font-family: 'arial';
+    font-size: 16px;
+}
+
+.page-menu li {
+    list-style-type: none;
+    display:inline-block;
+    margin: 20px;  
+
+}
+
+.snsmenu{
+    width:150px;
+    height:30px;
+    display:inline-block;
+    margin-left: 50px;
+    padding: 0px;
+}
+
+.snsmenu li {
+    list-style-type: none;
+    display:inline-block;
+}
+
+.facebook,.insta{
+    list-style-type: none;
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+/* slider */
+.slide1 ,
+.slide2 ,
+.slide3 ,
+.slide4 ,
+.slide5 ,
+.slide6 {
+    width: 100%;
+    max-width:960px;
+    min-width:960px;
+    max-height:570px;
+    min-height:570px;
+} 
+
+.slideshow {
+    padding: 0px;
+    margin-left: -808px;
+    display:flex;
+    list-style: none;
+    margin-top: 0px;
+}
+
+.slider{
+    width:1264px;
+    overflow:hidden;
+    position: relative;
+}
+
+#prev{
+    width:152px;
+    height:570px;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    background-color:black;
+    z-index:10;
+}
+
+#next{
+    width:152px;
+    height:570px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    opacity:0.5;
+    background-color:black;
+    z-index:10;
+}
+
+/* .slideshow{
+    display: flex;
+    list-style: none;
+    width: 960vw;
+    height: 470px;
+    overflow: hidden;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.slide1 , .slide2 , .slide3 , .slide4 , .slide5 , .slide6 {
+    width: auto;
+    height: 470px;
+}
+
+@keyframes loop {
+    0% {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+}
+  
+@keyframes loop2 {
+    0% {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-200%);
+    }
+}
+
+.slideshow slide1 {
+    animation: loop 50s -25s linear infinite;
+}
+  
+.slideshow slide2 {
+    animation: loop2 50s linear infinite;
+} */
+
+
+
+
+
+
+/* dots */
+.dots{
+    height: 50px;
+    width: 1264px;
+    padding:0px;
+    margin: 0px;
+    display: flex;
+    justify-content:center;
+} 
+
+.dots li {
+    font-size: 20px;
+    width: 30px;
+    height: 50px;
+    margin: 0px 0px 0px 30px;
+}
+
+
+/* contents */
+
+.contents{
+    height: 1587px;
+    width:1264px;
+    position: relative;
+    top: 10px;
+    left: 140px;
+}
+
+.grid-wrap{
+    height: 1624px;
+    width:990px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contents-item1,
+.contents-item2,
+.contents-item3,
+.contents-item5,
+.contents-item6,
+.contents-item7,
+.contents-item8,
+.contents-item10,
+.contents-item12
+{
+    background-color: white;
+    width:309PX;
+    height:300px;
+    margin-right:15px;
+    margin-top: 16px;
+    overflow: hidden;
+}
+
+
+.img1,.img2,.img3,.img5,.img6,.img7,.img8,.img10,.img12{
+    width: 309px;
+    height: 228px;
+    background-size: 80%;
+    background-repeat : no-repeat;
+}
+
+.image{
+    width: 309px;
+    height: 228px;
+    overflow: hidden;
+}
+
+
+.item1 h1,
+.item2 h1,
+.item3 h1,
+.item5 h1,
+.item6 h1,
+.item7 h1,
+.item8 h1,
+.item10 h1,
+.item12 h1
+{
+    width:309px;
+    height:81px;
+    font-size: 15px;
+    text-align:center;
+}
+
+.contents-item4,
+.contents-item9,
+.contents-item11 {
+    background-color: white;
+    width:628px;
+    height:300px;
+    margin-right: 15px;
+    margin-top: 16px;
+}
+
+.img4,.img9,.img11 {
+    width:628px;
+    height:228px;
+}
+
+.image2 {
+    width:628px;
+    height:228px;
+    overflow:hidden;
+}
+
+.item4 h1,
+.item9 h1,
+.item11 h1 {
+    width:618px;
+    height:81px;
+    font-size: 15px;
+    margin:15px;
+    text-align:center;
+}
+
+  /* 画像上の部分 */
+  .spot h1
+  {
+      background-color:#3cb590;
+      width : 309px;
+      height: 5px;
+      font-size: 20px;
+      position: relative;
+      left: 0px;
+      top: 0px;
+      margin: auto;
+  } 
+  
+  .spot h1::before{
+      content:"SPOT";
+      position: relative;
+      top: 0;
+      left: 0;
+      color: white;
+      background-color:#3cb590;
+  }
+  
+  .people h1
+  {
+      background-color:#3cb590;
+      width : 309px;
+      height: 5px;
+      font-size: 20px;
+      position: relative;
+      left: 0px;
+      top: 0px;
+      margin: auto;
+  } 
+  
+.people h1::before{
+      content:"PEOPLE";
+      position: relative;
+      top: 0;
+      left: 0;
+      color: white;
+      background-color:#3cb590;
+  }
+  
+.food h1{
+      background-color:#3cb590;
+      width : 309px;
+      height: 5px;
+      font-size: 20px;
+      position: relative;
+      left: 0px;
+      top: 0px;
+      margin: auto;
+  } 
+  
+.food h1::before{
+      content:"FOOD";
+      position: relative;
+      top: 0;
+      left: 0;
+      color: white;
+      background-color:#3cb590;
+  }
+  
+.food h2{
+      background-color:#3cb590;
+      width : 628px;
+      height: 5px;
+      font-size: 20px;
+      position: relative;
+      left: 0px;
+      top: 0px;
+      margin: auto;
+} 
+  
+.food h2::before{
+      content:"FOOD";
+      position: relative;
+      top: 0;
+      left: 0;
+      color: white;
+      background-color:#3cb590;
+}
+
+.people h2{
+      background-color:#3cb590;
+      width : 628px;
+      height: 5px;
+      font-size: 20px;
+      position: relative;
+      left: 0px;
+      top: 0px;
+      margin: auto;
+} 
+  
+.people h2::before{
+      content:"PEOPLE";
+      position: relative;
+      top: 0;
+      left: 0;
+      color: white;
+      background-color:#3cb590;
+}
+  
+/* 画像の上の部分ここまで ↑ */
+  
+ /* moreのところ */
+
+.contents-more{
+    width:1264px;
+    height: 60px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.more{
+    width: 300px;
+    height: 70px;
+    background-color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.more h1 {
+    font-size: 25px;
+    font-family:'arial';
+}
+ 
+
+/* 上部へのところ */
+
+.grid-totop{
+    width: 1264px;
+    height: 100px;
+    margin-top: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.totop{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.totop h1{
+    font-size: 20px;
+    font-family: 'MS Pゴシック';
+}
+
+
+/* fotter */
+
+.grobal-footer{
+    height:250px;
+    width: 1264px;
+    margin: 100px 0px 0px 0px;
+}
+
+.footer-wrap{
+    height:250px;
+    width: 950px;
+    margin:0px 140px 0px 140px;
+    background-color: white;
+}
+
+.footer-wrap1{
+    height: 100px;
+    width: 210px;
+    margin: 0px 380px 0px 380px;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+.logo{
+    width: 174px;
+    height: 73px;
+    margin: 50px 30px 30px 30px;
+}
+
+.footer-wrap2{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    position:relative;
+    top: 30px;
+    left: 230px;
+}
+
+.ft1, .ft2, .ft3{
+    font-size: 10px;
+}
+
+.ft-logo1,.ft-logo2{
+    width:27px;
+    height:27px;
+    margin-top:15px;
+}
+
+.ft1, .ft2, .ft3, .ft-logo1,.ft-logo2{
+    padding: 20px;
+}
+
